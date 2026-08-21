@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-feature-settings: "ss01" on;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display tracking-tight;
+  }
+
+  ::selection {
+    @apply bg-amber-200 text-ink;
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-teal ring-offset-2 ring-offset-paper rounded-md;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  /* Faint graph-paper texture — the platform's recurring "notebook" motif */
+  .bg-notebook {
+    background-color: theme("colors.paper.DEFAULT");
+    background-image:
+      linear-gradient(rgba(22, 35, 61, 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(22, 35, 61, 0.05) 1px, transparent 1px);
+    background-size: 28px 28px;
+  }
+
+  /* A single red "margin rule" evoking a page from an exercise book */
+  .notebook-margin {
+    position: relative;
+  }
+  .notebook-margin::before {
+    content: "";
+    position: absolute;
+    left: 1.75rem;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: rgba(232, 88, 63, 0.28);
+  }
+
+  .container-page {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+}

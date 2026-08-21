@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="skyBattle" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FAF8F3"/>
+      <stop offset="100%" stop-color="#F1EEE4"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#skyBattle)"/>
+  <g opacity="0.08" stroke="#16233D" stroke-width="1">
+    <path d="M0 30h400M0 60h400M0 90h400M0 120h400M0 150h400M0 180h400M0 210h400M0 240h400M0 270h400"/>
+    <path d="M30 0v300M60 0v300M90 0v300M120 0v300M150 0v300M180 0v300M210 0v300M240 0v300M270 0v300M300 0v300M330 0v300M360 0v300"/>
+  </g>
+  <rect x="0" y="170" width="400" height="70" fill="#1F5C4E"/>
+  <text x="70" y="150" font-family="Space Grotesk, sans-serif" font-size="44" font-weight="700" fill="#16233D">6&#215;7</text>
+  <text x="230" y="120" font-family="Space Grotesk, sans-serif" font-size="30" font-weight="700" fill="#F5A623">=?</text>
+  <text x="60" y="222" font-size="44">👾</text>
+  <text x="150" y="222" font-size="34">👾</text>
+  <text x="320" y="228" font-size="52">🏰</text>
+</svg>

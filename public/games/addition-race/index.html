@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Addition Race — AK Math Games</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="game">
+      <header class="hud">
+        <div class="hud-stat">
+          <span class="hud-label">Score</span>
+          <span class="hud-value" id="score">0</span>
+        </div>
+        <div class="hud-stat">
+          <span class="hud-label">Time</span>
+          <span class="hud-value" id="time">30</span>
+        </div>
+        <div class="hud-stat">
+          <span class="hud-label">Streak</span>
+          <span class="hud-value" id="streak">0</span>
+        </div>
+      </header>
+
+      <section class="track" aria-hidden="true">
+        <div class="track-lane">
+          <div class="car" id="car">🏎️</div>
+          <div class="finish">🏁</div>
+        </div>
+      </section>
+
+      <section class="problem-panel">
+        <p class="problem" id="problem">3 + 4</p>
+        <div class="answers" id="answers"></div>
+      </section>
+
+      <div class="overlay" id="startOverlay">
+        <div class="overlay-card">
+          <h1>🏎️ Addition Race</h1>
+          <p>Solve addition problems as fast as you can to race down the track!</p>
+          <button id="startBtn" class="btn">Start Race</button>
+        </div>
+      </div>
+
+      <div class="overlay hidden" id="endOverlay">
+        <div class="overlay-card">
+          <h1>🏁 Race Complete!</h1>
+          <p id="finalScore">Score: 0</p>
+          <button id="restartBtn" class="btn">Race Again</button>
+        </div>
+      </div>
+    </main>
+    <script src="game.js"></script>
+  </body>
+</html>

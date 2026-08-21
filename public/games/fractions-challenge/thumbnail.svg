@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="skyFrac" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FAF8F3"/>
+      <stop offset="100%" stop-color="#F1EEE4"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#skyFrac)"/>
+  <g opacity="0.08" stroke="#16233D" stroke-width="1">
+    <path d="M0 30h400M0 60h400M0 90h400M0 120h400M0 150h400M0 180h400M0 210h400M0 240h400M0 270h400"/>
+    <path d="M30 0v300M60 0v300M90 0v300M120 0v300M150 0v300M180 0v300M210 0v300M240 0v300M270 0v300M300 0v300M330 0v300M360 0v300"/>
+  </g>
+  <circle cx="130" cy="150" r="80" fill="#F5A623" stroke="#16233D" stroke-width="3"/>
+  <path d="M130 150 L130 70 A80 80 0 0 1 199 189 Z" fill="#E8583F"/>
+  <line x1="130" y1="150" x2="130" y2="70" stroke="#16233D" stroke-width="2" opacity="0.6"/>
+  <line x1="130" y1="150" x2="199" y2="189" stroke="#16233D" stroke-width="2" opacity="0.6"/>
+  <line x1="130" y1="150" x2="61" y2="189" stroke="#16233D" stroke-width="2" opacity="0.6"/>
+  <line x1="130" y1="150" x2="130" y2="230" stroke="#16233D" stroke-width="2" opacity="0.6"/>
+  <circle cx="300" cy="150" r="55" fill="#F5A623" stroke="#16233D" stroke-width="3"/>
+  <path d="M300 150 L300 95 A55 55 0 0 1 347 122 Z" fill="#E8583F"/>
+  <line x1="300" y1="150" x2="300" y2="95" stroke="#16233D" stroke-width="2" opacity="0.6"/>
+  <line x1="300" y1="150" x2="347" y2="122" stroke="#16233D" stroke-width="2" opacity="0.6"/>
+  <line x1="300" y1="150" x2="347" y2="178" stroke="#16233D" stroke-width="2" opacity="0.6"/>
+  <line x1="300" y1="150" x2="300" y2="205" stroke="#16233D" stroke-width="2" opacity="0.6"/>
+  <line x1="300" y1="150" x2="253" y2="178" stroke="#16233D" stroke-width="2" opacity="0.6"/>
+  <line x1="300" y1="150" x2="253" y2="122" stroke="#16233D" stroke-width="2" opacity="0.6"/>
+</svg>

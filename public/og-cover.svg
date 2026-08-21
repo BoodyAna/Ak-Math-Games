@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#16233D"/>
+  <g opacity="0.08" stroke="#FAF8F3" stroke-width="1">
+    <path d="M0 90h1200M0 180h1200M0 270h1200M0 360h1200M0 450h1200M0 540h1200"/>
+    <path d="M100 0v630M200 0v630M300 0v630M400 0v630M500 0v630M600 0v630M700 0v630M800 0v630M900 0v630M1000 0v630M1100 0v630"/>
+  </g>
+  <rect x="80" y="80" width="88" height="88" rx="20" fill="#F5A623"/>
+  <text x="124" y="146" font-family="Space Grotesk, sans-serif" font-size="52" font-weight="700" fill="#16233D" text-anchor="middle">&#931;</text>
+  <text x="80" y="330" font-family="Space Grotesk, sans-serif" font-size="72" font-weight="700" fill="#FAF8F3">AK Math Games</text>
+  <text x="80" y="400" font-family="Inter, sans-serif" font-size="34" fill="#8299B9">Learn Math. Play. Master It.</text>
+  <text x="900" y="560" font-size="90">🏎️</text>
+  <text x="1030" y="560" font-size="90">🍕</text>
+</svg>

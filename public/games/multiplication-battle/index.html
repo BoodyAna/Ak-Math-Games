@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiplication Battle — AK Math Games</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="game">
+      <header class="hud">
+        <div class="hud-stat">
+          <span class="hud-label">Castle HP</span>
+          <span class="hud-value" id="hp">5</span>
+        </div>
+        <div class="hud-stat">
+          <span class="hud-label">Score</span>
+          <span class="hud-value" id="score">0</span>
+        </div>
+        <div class="hud-stat">
+          <span class="hud-label">Wave</span>
+          <span class="hud-value" id="wave">1</span>
+        </div>
+      </header>
+
+      <section class="battlefield">
+        <div class="castle">🏰</div>
+        <div class="invaders" id="invaders"></div>
+      </section>
+
+      <section class="problem-panel">
+        <p class="problem" id="problem">6 × 7</p>
+        <form id="answerForm" class="answer-form" autocomplete="off">
+          <input
+            id="answerInput"
+            class="answer-input"
+            type="number"
+            inputmode="numeric"
+            placeholder="?"
+            aria-label="Your answer"
+          />
+          <button type="submit" class="btn">Attack ⚔️</button>
+        </form>
+        <p class="hint" id="hint"></p>
+      </section>
+
+      <div class="overlay" id="startOverlay">
+        <div class="overlay-card">
+          <h1>🛡️ Multiplication Battle</h1>
+          <p>Invaders are marching on your castle! Answer multiplication facts correctly to defeat them before they arrive.</p>
+          <button id="startBtn" class="btn">Defend the Castle</button>
+        </div>
+      </div>
+
+      <div class="overlay hidden" id="endOverlay">
+        <div class="overlay-card">
+          <h1 id="endTitle">🏆 Victory!</h1>
+          <p id="finalScore">Score: 0</p>
+          <button id="restartBtn" class="btn">Battle Again</button>
+        </div>
+      </div>
+    </main>
+    <script src="game.js"></script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="graphPaper" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#16233D" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- background -->
+  <rect width="400" height="300" fill="#FAF8F3"/>
+  <rect width="400" height="300" fill="url(#graphPaper)"/>
+
+  <!-- card -->
+  <rect x="24" y="24" width="352" height="252" rx="20" fill="#FFFFFF" stroke="#16233D" stroke-opacity="0.06"/>
+
+  <!-- title -->
+  <text x="200" y="62" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="24" font-weight="700" fill="#16233D">Graph Challenge</text>
+  <text x="200" y="84" text-anchor="middle" font-family="'IBM Plex Mono', monospace" font-size="12" fill="#2AA9A0" letter-spacing="1">TABLES &amp; GRAPHS</text>
+
+  <!-- axis lines -->
+  <line x1="80" y1="230" x2="340" y2="230" stroke="#16233D" stroke-opacity="0.25" stroke-width="2"/>
+  <line x1="80" y1="230" x2="80" y2="110" stroke="#16233D" stroke-opacity="0.25" stroke-width="2"/>
+
+  <!-- gridlines -->
+  <line x1="80" y1="190" x2="340" y2="190" stroke="#16233D" stroke-opacity="0.08" stroke-width="1"/>
+  <line x1="80" y1="150" x2="340" y2="150" stroke="#16233D" stroke-opacity="0.08" stroke-width="1"/>
+
+  <!-- bars -->
+  <rect x="105" y="170" width="34" height="60" rx="5" fill="#2AA9A0"/>
+  <rect x="160" y="140" width="34" height="90" rx="5" fill="#F5A623"/>
+  <rect x="215" y="120" width="34" height="110" rx="5" fill="#E8583F"/>
+  <rect x="270" y="155" width="34" height="75" rx="5" fill="#1F5C4E"/>
+
+  <!-- bar caps for character -->
+  <circle cx="122" cy="170" r="4" fill="#16233D" fill-opacity="0.15"/>
+  <circle cx="177" cy="140" r="4" fill="#16233D" fill-opacity="0.15"/>
+  <circle cx="232" cy="120" r="4" fill="#16233D" fill-opacity="0.15"/>
+  <circle cx="287" cy="155" r="4" fill="#16233D" fill-opacity="0.15"/>
+
+  <!-- question mark badge -->
+  <circle cx="336" cy="100" r="18" fill="#E8583F"/>
+  <text x="336" y="107" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="20" font-weight="700" fill="#FAF8F3">?</text>
+
+  <!-- bottom label strip -->
+  <text x="200" y="256" text-anchor="middle" font-family="'Inter', sans-serif" font-size="12" fill="#16233D" fill-opacity="0.55">Read it. Compare it. Solve it.</text>
+</svg>
